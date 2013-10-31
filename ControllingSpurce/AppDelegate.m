@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 
 #import "MasterViewController.h"
-
+//ss
 @implementation AppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
