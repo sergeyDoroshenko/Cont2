@@ -89,6 +89,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A63E9BAC18230A92007FA750 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A674D4E8182302D1007B0690 /* MasterViewController.h */,
+				A674D4E9182302D1007B0690 /* MasterViewController.m */,
+				A674D4EB182302D1007B0690 /* DetailViewController.h */,
+				A674D4EC182302D1007B0690 /* DetailViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		A674D4C2182302D1007B0690 = {
 			isa = PBXGroup;
 			children = (
@@ -126,10 +137,7 @@
 				A674D4DF182302D1007B0690 /* AppDelegate.h */,
 				A674D4E0182302D1007B0690 /* AppDelegate.m */,
 				A674D4E2182302D1007B0690 /* Main.storyboard */,
-				A674D4E8182302D1007B0690 /* MasterViewController.h */,
-				A674D4E9182302D1007B0690 /* MasterViewController.m */,
-				A674D4EB182302D1007B0690 /* DetailViewController.h */,
-				A674D4EC182302D1007B0690 /* DetailViewController.m */,
+				A63E9BAC18230A92007FA750 /* View Controllers */,
 				A674D4EE182302D1007B0690 /* Images.xcassets */,
 				A674D4E5182302D1007B0690 /* ControllingSpurce.xcdatamodeld */,
 				A674D4D7182302D1007B0690 /* Supporting Files */,
@@ -476,6 +484,7 @@
 				A674D508182302D1007B0690 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A674D509182302D1007B0690 /* Build configuration list for PBXNativeTarget "ControllingSpurceTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +493,7 @@
 				A674D50B182302D1007B0690 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
